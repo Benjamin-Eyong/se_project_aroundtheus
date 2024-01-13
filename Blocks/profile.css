@@ -1,0 +1,57 @@
+.profile {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.profile__info {
+  display: grid;
+  grid-template-areas:
+    "title button"
+    "description description";
+  grid-template-columns: minmax(auto, 373px) auto;
+}
+
+.profile__edit-button {
+  background-color: transparent url(/Images/Vector\\3\.svg) center no-repeat;
+  width: 24px;
+  height: 24px;
+  grid-area: button;
+}
+
+.profile__add-buttton {
+  background: transparent url(../Images/Vector\\5\.svg) center no-repeat;
+  width: 150px;
+  height: 50px;
+  grid-area: button;
+  margin-left: auto;
+}
+
+.profile__title {
+  font-size: 42px;
+  line-height: 48px;
+  font-weight: 500;
+  grid-area: title;
+  margin: 0;
+}
+
+.profile__description {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  grid-area: description;
+  max-width: 373px;
+  margin: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.profile__image {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-position: center;
+  margin-right: 24px;
+}
