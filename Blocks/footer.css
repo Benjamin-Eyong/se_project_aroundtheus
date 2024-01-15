@@ -1,0 +1,18 @@
+.footer {
+  justify-content: space-between;
+  padding: 50px;
+  margin: 50px;
+  width: 318px;
+  margin-left: 200px;
+}
+
+.footer__copyright {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
