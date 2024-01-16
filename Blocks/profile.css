@@ -13,14 +13,14 @@
 }
 
 .profile__edit-button {
-  background-color: transparent url(/Images/Vector\\3\.svg) center no-repeat;
+  background-color: transparent url(../Images/Vectoredit.svg) center no-repeat;
   width: 24px;
   height: 24px;
   grid-area: button;
 }
 
 .profile__add-buttton {
-  background: transparent url(../Images/Vector\\5\.svg) center no-repeat;
+  background: transparent url(../Images/Vectorplus.svg) center no-repeat;
   width: 150px;
   height: 50px;
   grid-area: button;
