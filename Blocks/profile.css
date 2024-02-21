@@ -4,6 +4,16 @@
   padding-top: 40px;
 }
 
+.line {
+  width: 880px;
+  top: 119px;
+  left: 200px;
+  border: 1px;
+  opacity: 0.7px;
+  color: #545454;
+  background: transparent url(../Images/Line.svg) center no-repeat;
+}
+
 .profile__info {
   display: grid;
   grid-template-areas:
@@ -14,19 +24,20 @@
 
 .profile__edit-button {
   background: transparent url(../Images/Vectoredit.svg) center no-repeat;
-  width: 24px;
-  height: 24px;
+  width: 22px;
+  height: 22px;
   grid-area: button;
   border: 1px solid #fff;
 }
 
 .profile__add-button {
-  background: transparent url(../Images/Vectorplus.svg) center no-repeat;
+  background: transparent url(../Images/Vector.svg) center no-repeat;
   width: 150px;
   height: 50px;
   grid-area: button;
   margin-left: auto;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
+  border-radius: 2px;
 }
 
 .profile__title {
@@ -67,32 +78,8 @@
   }
 }
 
-@media screen and (max-width: 320px) {
-  .profile {
-    background-color: black;
-    flex-direction: column;
-  }
-
-  .profile__info {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-  }
-
-  .profile__description {
-    width: 100%;
-    text-align: center;
-  }
-
-  .profile__add-button {
-    margin: 0;
-    width: 100%;
-  }
-}
-
 @media screen and (max-width: 775px) {
   .profile {
-    background-color: black;
     flex-direction: column;
   }
 
@@ -115,7 +102,6 @@
 
 @media screen and (max-width: 768px) {
   .profile {
-    background-color: black;
     flex-direction: column;
   }
 
@@ -131,6 +117,50 @@
     justify-content: center;
     width: 100%;
     align-items: center;
+  }
+
+  .profile__description {
+    width: 100%;
+    text-align: center;
+  }
+
+  .profile__add-button {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .profile {
+    flex-direction: column;
+  }
+
+  .profile__info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .profile__description {
+    width: 100%;
+    text-align: center;
+  }
+
+  .profile__add-button {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .profile {
+    flex-direction: column;
+  }
+
+  .profile__info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
   }
 
   .profile__description {

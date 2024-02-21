@@ -1,15 +1,20 @@
 .footer {
   justify-content: space-between;
-  justify-content: space-between;
   padding: 50px;
   margin: 50px;
-  width: 318px;
-  margin-left: 200px;
+  text-align: left;
+  height: 18px;
 }
 
 .footer__copyright {
-  font-family: "Inter";
+  font-family: "Inter" Arial, sans-serif; /* This line of code sets Inter as primary font, Arial as fallback, and sans-serif as generic family as requested*/
   font-weight: 400;
   font-size: 18px;
-  line-height: 21.78px;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 318px;
+  height: 18px;
+  top: 1139px;
+  left: 200px;
 }
