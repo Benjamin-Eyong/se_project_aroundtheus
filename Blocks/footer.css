@@ -1,7 +1,6 @@
 .footer {
   justify-content: space-between;
-  padding: 50px;
-  margin: 50px;
+  padding: 50px 50px 80px 0px;
   text-align: left;
   height: 18px;
 }
@@ -13,8 +12,8 @@
   line-height: 22px;
   letter-spacing: 0em;
   text-align: left;
-  width: 318px;
   height: 18px;
-  top: 1139px;
+  width: 318px;
   left: 200px;
+  top: 1139px;
 }

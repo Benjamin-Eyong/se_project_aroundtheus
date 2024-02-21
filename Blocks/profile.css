@@ -144,6 +144,8 @@
   .profile__description {
     width: 100%;
     text-align: center;
+    border-width: 0px, 0px, 0px, 0px;
+    margin-bottom: 40px;
   }
 
   .profile__add-button {
@@ -166,6 +168,8 @@
   .profile__description {
     width: 100%;
     text-align: center;
+    border-width: 0px, 0px, 0px, 0px;
+    margin-bottom: 40px;
   }
 
   .profile__add-button {
