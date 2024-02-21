@@ -76,6 +76,10 @@
   .profile__add-button {
     width: 50px;
   }
+
+  .profile__add-button:hover {
+    opacity: 0.7;
+  }
 }
 
 @media screen and (max-width: 775px) {
@@ -97,6 +101,11 @@
   .profile__add-button {
     margin: 0;
     width: 100%;
+    cursor: pointer;
+  }
+
+  .profile__add-button:hover {
+    opacity: 0.7;
   }
 }
 
@@ -127,6 +136,11 @@
   .profile__add-button {
     margin: 0;
     width: 100%;
+    cursor: pointer;
+  }
+
+  .profile__add-button:hover {
+    opacity: 0.7;
   }
 }
 
@@ -151,6 +165,11 @@
   .profile__add-button {
     margin: 0;
     width: 100%;
+    cursor: pointer;
+  }
+
+  .profile__add-button:hover {
+    opacity: 0.7;
   }
 }
 
@@ -175,5 +194,10 @@
   .profile__add-button {
     margin: 0;
     width: 100%;
+    cursor: pointer;
+  }
+
+  .profile__add-button:hover {
+    opacity: 0.7;
   }
 }

@@ -52,6 +52,7 @@
   width: 21px;
   height: 18px;
   border: none;
+  cursor: pointer;
 }
 
 .card-like-button:hover {
@@ -73,10 +74,17 @@
   .profile__description {
     width: 100%;
     text-align: center;
+    border-width: 0px, 0px, 0px, 0px;
+    margin-bottom: 40px;
   }
 
   .profile__add-button {
     margin: 0;
     width: 100%;
+    cursor: pointer;
+  }
+
+  .profile__add-button:hover {
+    opacity: 0.7;
   }
 }
