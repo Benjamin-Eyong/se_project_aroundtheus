@@ -47,7 +47,7 @@
   justify-content: space-between;
 }
 
-.card-like-button {
+.card__like-button {
   background: transparent url(../Images/hearts.svg) center no-repeat;
   width: 21px;
   height: 18px;
@@ -55,36 +55,6 @@
   cursor: pointer;
 }
 
-.card-like-button:hover {
+.card__like-button:hover {
   opacity: 0.7;
-}
-
-@media screen and (max-width: 480px) {
-  .profile {
-    background-color: black;
-    flex-direction: column;
-  }
-
-  .profile__info {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-  }
-
-  .profile__description {
-    width: 100%;
-    text-align: center;
-    border-width: 0px, 0px, 0px, 0px;
-    margin-bottom: 40px;
-  }
-
-  .profile__add-button {
-    margin: 0;
-    width: 100%;
-    cursor: pointer;
-  }
-
-  .profile__add-button:hover {
-    opacity: 0.7;
-  }
 }
