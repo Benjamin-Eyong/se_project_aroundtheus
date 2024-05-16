@@ -176,8 +176,24 @@
 }
 
 @media screen and (max-width: 320px) {
+  .profile {
+    background-color: black;
+    padding-bottom: 50px;
+  }
+
+  .profile__description {
+    width: 100%;
+    text-align: center;
+    border-width: 0px, 0px, 0px, 0px;
+    margin-bottom: 40px;
+  }
+
   .profile__add-card-button {
     width: 120px;
+    width: 100%;
+    text-align: center;
+    border-width: 0px, 0px, 0px, 0px;
+    margin-bottom: 40px;
   }
 
   .profile__title {
@@ -186,9 +202,7 @@
 
   .profile__edit-button {
     width: 21px;
-    height: 21px;
-    background-size: 8.75px 8.75px;
-    margin: 0 0 12px 12px;
+    height: 20px;
   }
 
   .profile__description {
