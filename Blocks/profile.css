@@ -1,7 +1,6 @@
 .profile {
   display: flex;
   align-items: center;
-  width: 880px;
   height: 230px;
   top: 40px;
 }
@@ -150,15 +149,21 @@
     align-items: center;
   }
 
+  .page__contemt {
+    padding-bottom: 100px;
+  }
+
   .profile__info {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     width: 100%;
   }
 
   .profile__description {
-    width: 100%;
-    text-align: center;
+    width: auto;
+    justify-content: center;
+
     margin-bottom: 40px;
   }
 
@@ -178,19 +183,28 @@
 @media screen and (max-width: 320px) {
   .profile {
     background-color: black;
-    padding-bottom: 50px;
+    padding: auto;
+  }
+
+  .page__contemt {
+    padding-bottom: 100px;
+  }
+
+  .profile__image {
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
   }
 
   .profile__description {
-    width: 100%;
+    width: auto;
     text-align: center;
     border-width: 0px, 0px, 0px, 0px;
-    margin-bottom: 40px;
+    margin-right: 400px;
   }
 
   .profile__add-card-button {
     width: 120px;
-    width: 100%;
     text-align: center;
     border-width: 0px, 0px, 0px, 0px;
     margin-bottom: 40px;
