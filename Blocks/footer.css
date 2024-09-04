@@ -6,10 +6,11 @@
 }
 
 .footer__copyright {
-  font-family: "Inter" Arial, sans-serif; /* This line of code sets Inter as primary font, Arial as fallback, and sans-serif as generic family as requested*/
+  font-family: "Inter", Arial, sans-serif; /* Corrected syntax with comma */
   font-weight: 400;
   font-size: 18px;
   line-height: 21.78px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
+  margin: 0; /* Resetting default vertical margins */
 }

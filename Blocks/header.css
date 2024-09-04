@@ -1,7 +1,6 @@
 .header {
-  width: 880px;
-  height: 74px;
-  top: 45px;
-  border-bottom: 1px solid rgba(84, 84, 84, 0.5); /* Adjusted opacity as you requested */
-  min-height: 100px;
+  max-width: 100%; /* Ensures responsiveness instead of a fixed width */
+  min-height: 100px; /* Use min-height instead of a fixed height */
+  padding: 15px 0; /* Added padding to manage vertical spacing */
+  border-bottom: 1px solid rgba(84, 84, 84, 0.7); /* Border as per request */
 }
